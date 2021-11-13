@@ -1,0 +1,93 @@
+.menu-area{
+    background-color: rgba(131, 117, 117, 0.068);
+    margin:auto;
+}
+
+body{
+
+    background: url(sun.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+  }
+
+.menu-area{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+  .menu-area a{
+    
+    display: flex;
+    margin-top: 10px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: white;
+    height: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+  
+  }
+  .menu-area a:hover{
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+}
+.menu-area ul{
+    
+    list-style: none;
+    display: flex;
+  }
+  .menu-area li{
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+  }
+  .menu-area li:hover .dropdown-1 > li{
+    display: block;
+    top: 0;
+    margin: auto;
+  }
+  .dropdown-1 li{
+    display: none;
+    position: relative;
+    
+  }
+  .dropdown-1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+
+.head{
+    font-size: 75px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.intro{
+    font-size: 70px;
+    margin-top: 50px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.ml3 {
+    text-align: center;
+    font-size: 75PX;
+    margin-top: 140px;
+    color: white;
+  }
